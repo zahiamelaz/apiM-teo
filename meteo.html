@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="meteo.css">
+</head>
+<body>
+
+    <header>
+        <h1>MÉTÉO API</h1>
+        <div class="input-container">
+            <input id="searchVille" type="text" placeholder=" Chercher une ville.">
+            <button type="button" value="submit" onclick="recherche()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="h2-container">
+            <h2 id="villeActuelle">Paris</h2>
+            <div class="underline"></div>
+        </div>
+        <div id="icon">TG</div>
+        <p id="tDescription">temp dégagé</p>
+        <div class="notification">
+            <div class="item">
+                <i class="fas fa-temperature-low"></i>
+                <p id="degres">25°C</p>  
+            </div>
+            <div class="item">
+                <i class="fas fa-tint"></i>
+                <p id="humidity">65%</p> 
+            </div>
+            <div class="item">
+                <i class="fas fa-wind"></i>
+                <p id="wind">32km/h</p>
+            </div>
+        </div>   
+    </div>
+    <script src="meteo.js"></script>
+</body>
+</html>

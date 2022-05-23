@@ -1,0 +1,126 @@
+body {
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    background-color:#000;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction:column;         
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin:10px;
+}
+
+#searchVille {
+    height: 30px;
+    border: 2px solid #3a0d8d;
+    border-radius: 10px 0 0 10px;
+    padding: 3px;
+}
+
+button {
+    color: white;
+    border: 2px solid #3a0d8d;
+    background-color: #3a0d8d;
+    border-radius: 0 10px 10px 0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    padding: 3px;
+}
+button i{
+    font-size:15px ;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: RGBA(33,158,188,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 450px;
+    width: 350px;
+}
+
+.h2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#villeActuelle {
+    margin: 0px 0px 5px 0px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.underline {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
+
+#icon {
+    margin: 15px;
+    background-color: rgba(2,0,36,0.6);
+    border-radius: 10px;
+    
+}
+
+#tDescription {
+    font-size: 22px;
+}
+
+.infos-container {
+    background-color: #8ECAE6;
+    width: 30%;
+    border-radius: 10px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction:column;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+} 
+.notification{
+    display: flex;
+    flex-direction: row;
+}
+
+.item p {
+    font-size: 24px;
+   
+}
+
+.item i {
+    font-size: 24px;
+}
